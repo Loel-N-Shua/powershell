@@ -1,0 +1,20 @@
+New-ModuleManifest -Path ".\qc.psd1" `
+  -RootModule "qc.psm1" `
+  -ModuleVersion "1.0.0" `
+  -Author "Shua" `
+  -Description "Quickconnect Reset" `
+  -FunctionsToExport "qc" `
+
+New-ModuleManifest -Path ".\functions.psd1" `
+  -RootModule "functions.psm1" `
+  -ModuleVersion "1.0.0" `
+  -Author "Shua" `
+  -Description "functions" `
+  -FunctionsToExport "Get-Identifier", "Get-Headers" `
+
+New-ModuleManifest -Path ".\getCOM.psd1" `
+  -RootModule "getCOM.psm1" `
+  -ModuleVersion "1.0.0" `
+  -Author "Shua" `
+  -Description "get COM ports" `
+  -FunctionsToExport "getCOM" `

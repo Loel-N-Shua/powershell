@@ -1,0 +1,6 @@
+C:\Users\jwiley\Pulseway Scripts\functions
+C:\Users\jwiley\Pulseway Scripts\qc
+
+C:\Program Files\WindowsPowershell\Modules
+
+
